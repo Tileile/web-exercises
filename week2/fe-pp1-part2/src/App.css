@@ -1,0 +1,17 @@
+h3 {
+  text-align: center;
+}
+
+
+.App-logo {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+
+.row{
+  display:flex;
+
+}
+

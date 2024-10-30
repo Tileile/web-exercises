@@ -1,9 +1,9 @@
-
-function Hello(){
+// Bye.js
+function Bye(){
     return (
-    <p>Hello!</p>
+    <p>Bye..</p>
     
     ) 
 }
 
-export default Hello;
+export default Bye;
