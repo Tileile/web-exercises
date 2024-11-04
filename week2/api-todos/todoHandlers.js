@@ -31,7 +31,7 @@ const updateTodo = (req, res) => {
     const TaskId = req.params.todoId;
 
     const { task, completed, dueDate } = req.body;
-
+    
     const updatedTask = Task.updateOneById(TaskId, { task, completed, dueDate });
 
     if (updatedTask) {
