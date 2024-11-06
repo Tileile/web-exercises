@@ -47,7 +47,7 @@ const deleteTodo = (req, res) => {
     const isDeleted = Task.deleteOneById(TaskId);
 
     if (isDeleted) {
-        res.json({ message: "Task deleted successfully" });
+        res.status(204).json({ message: "Task deleted successfully" });
     } else {
         res.status(404).json({ message: "Task not found" });
     }
