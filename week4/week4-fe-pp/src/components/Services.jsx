@@ -4,6 +4,12 @@ import { useState } from 'react';
 import { services } from "../data";
 
 function Services() {
+
+  const handleDeleteService = (serviceId)=> {
+    setServicesData( () =>{
+      return servicesData.filter( (service) => service.id !== serviceId)
+    })
+  }
   const [servicesData, setServicesData] = useState(services);
   return (
     <section className='section services' id='services'>
@@ -11,7 +17,7 @@ function Services() {
 
       <div className='section-center services-center'>
         {servicesData.map((service) => {
-          return <Service {...service} key={service.id} />
+          return <Service {...service} key={service.id} onDelete={handleDeleteService} />
         })}
       </div>
     </section>
