@@ -8,6 +8,7 @@ export const pageLinks = [
   { id: 2, href: "/about", text: "about" },
   { id: 3, href: "/services", text: "services" },
   { id: 4, href: "/tours", text: "tours" },
+  { id: 5, href: "/registration", text:"registration"},
 ];
 export const socialLinks = [
   { id: 1, href: "https://www.facebook.com", icon: "fab fa-facebook" },

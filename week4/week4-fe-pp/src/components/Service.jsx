@@ -3,6 +3,7 @@ const Service = ({ icon, title, text, id, onDelete }) => {
   const handleDelete = () =>{
     onDelete(id);
   }
+  
   return (
     <article className='service'>
       <span className='service-icon'>

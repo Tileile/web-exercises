@@ -569,3 +569,20 @@ min-height:calc(100vh - 62px);
   font-size: 1.5rem;
   text-transform: uppercase;
 }
+
+/*
+=============== 
+Registration
+===============
+*/
+.form-center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-center div{
+  padding:1rem;
+}
+

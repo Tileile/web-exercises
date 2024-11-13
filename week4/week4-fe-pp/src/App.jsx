@@ -9,6 +9,8 @@ import NotFound from "./components/NotFound";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
+import Registration from "./components/Registration";
+
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +21,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/tours" element={<Tours />} />
         <Route path="/about" element={<About />} />
+        <Route path="/registration" element={<Registration />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
