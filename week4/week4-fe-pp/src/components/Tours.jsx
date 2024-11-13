@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { tours } from "../data";
 import Title from "./Title";
 import Tour from "./Tour";
