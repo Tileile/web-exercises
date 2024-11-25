@@ -1,0 +1,1 @@
+const secret = require('crypto').createHmac('sha512')
