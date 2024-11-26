@@ -21,7 +21,6 @@ const AppWithCustomHook = () => {
     setHeight(heightInput.value)
     console.log(nameInput.value, bornInput.value, heightInput.value)
 
-    // You can handle form submission logic here
     nameInput.reset();
     bornInput.reset();
     heightInput.reset();
